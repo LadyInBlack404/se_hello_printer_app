@@ -16,8 +16,8 @@ jobs:
       - name: Install deps
         run: make deps
 
-      - name: Tests
-        run: make test
-
       - name: Linter
         run: make lint
+
+      - name: Tests
+        run: make test
